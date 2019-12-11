@@ -40,3 +40,10 @@ body {
 .content {
     margin: 10% 5% 10% 5%;
 }
+
+::selection {
+    background-color: rgb(212, 182, 117);
+}
+::-moz-selection {
+    background: rgb(212, 182, 117);
+  }
