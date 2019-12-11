@@ -1,0 +1,35 @@
+.jumbotron {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#passBox {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 25px;
+    background-color: #fff;
+    border: 2px dotted #666666;
+}
+body {
+    background-image: url("images/hotel-wallpaper.png");
+}
+
+#generate {
+    background-color: #3f9b37;
+    box-shadow: none;
+    border: none;
+    padding: 5px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#copy {
+    box-shadow: none;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+}
