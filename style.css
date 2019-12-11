@@ -1,6 +1,8 @@
 .jumbotron {
     max-width: 960px;
     margin: 0 auto;
+    border: 2px dotted #4f4f4f;
+    border-bottom: none;
 }
 
 h2 {
@@ -12,7 +14,8 @@ h2 {
     margin: 0 auto;
     padding-top: 25px;
     background-color: #fff;
-    border: 2px dotted #666666;
+    border: 2px dotted #4f4f4f;
+    border-top: none;
 }
 body {
     background-image: url("images/hotel-wallpaper.png");
@@ -32,4 +35,8 @@ body {
     border: none;
     padding: 5px;
     margin-bottom: 10px;
+}
+
+.content {
+    margin: 10% 5% 10% 5%;
 }

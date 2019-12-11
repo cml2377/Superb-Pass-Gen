@@ -14,25 +14,26 @@
 </head>
 
 <body>
+    <div class="content">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Password Generator</h1>
+                <p class="lead">Welcome to my very first password generator! Try it out!</p>
+            </div>
+        </div>
 
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Password Generator</h1>
-            <p class="lead">Welcome to my very first password generator! Try it out!</p>
+        <div class="container" id="passBox">
+            <h2>Generate a Password</h2>
+            <textarea readonly id="password" placeholder="Your Secure Password"
+                aria-label="Generated Password"></textarea>
+            <hr>
+            <button id="generate">Generate Password</button>
+            <button id="copy">
+                Copy to Clipboard
+            </button>
         </div>
     </div>
-
-    <div class="container" id="passBox">
-        <h2>Generate a Password</h2>
-        <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
-        <hr>
-        <button id="generate">Generate Password</button>
-        <button id="copy">
-            Copy to Clipboard
-        </button>
-    </div>
-
-
+    <script src="passGen.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
