@@ -24,15 +24,16 @@
 
         <div class="container" id="passBox">
             <h2>Generate a Password</h2>
-            <textarea readonly id="password" placeholder="Your Secure Password"
+            <textarea readonly id="passwordBox" placeholder="Your Secure Password"
                 aria-label="Generated Password"></textarea>
             <hr>
-            <button id="generate">Generate Password</button>
-            <button id="copy">
+            <button id="generate" onClick="generatePassword()">Generate Password</button>
+            <button id="copy" onClick="copyPassword()">
                 Copy to Clipboard
             </button>
         </div>
     </div>
+
     <script src="passGen.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
