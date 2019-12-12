@@ -42,8 +42,8 @@ body {
 }
 
 ::selection {
-    background-color: rgb(212, 182, 117);
+    background-color: rgb(47, 149, 153);
 }
 ::-moz-selection {
-    background: rgb(212, 182, 117);
+    background: rgb(47, 149, 153);
   }

@@ -24,8 +24,13 @@
 
         <div class="container" id="passBox">
             <h2>Generate a Password</h2>
-            <textarea readonly id="passwordBox" placeholder="Your Secure Password"
-                aria-label="Generated Password"></textarea>
+            <form>
+                <div class="form-group">
+                    <label for="passwordBox">Password</label>
+                    <textarea class="form-control" readonly id="passwordBox" placeholder="Your Secure Password"
+                        aria-label="Generated Password" rows="3"></textarea>
+                </div>
+            </form>
             <hr>
             <button id="generate" onClick="generatePassword()">Generate Password</button>
             <button data-toggle="modal" data-target="#myModal" id="copy" onClick="copyPassword()">
