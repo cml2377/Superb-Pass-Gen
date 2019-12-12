@@ -14,6 +14,8 @@
 </head>
 
 <body>
+
+    <!--Header that contains title of page-->
     <div class="content">
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
@@ -21,7 +23,7 @@
                 <p class="lead">Welcome to my very first password generator! Try it out!</p>
             </div>
         </div>
-
+        <!--Container that holds the form that will generate password-->
         <div class="container" id="passBox">
             <h2>Generate a Password</h2>
             <form>
@@ -32,10 +34,12 @@
                 </div>
             </form>
             <hr>
+            <!--Generate button that performs the function generatePassword when clicked.-->
             <button id="generate" onClick="generatePassword()">Generate Password</button>
             <button data-toggle="modal" data-target="#myModal" id="copy" onClick="copyPassword()">
                 Copy to Clipboard
             </button>
+            <!--Modal that pops up when the password is copied-->
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog" role="document">

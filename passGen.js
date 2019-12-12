@@ -1,7 +1,7 @@
 /* This is pseudocode for this password generator.
 Each time the script is run, a new password will be generated randomly.
 Password will be 12 characters long
-Can include A-Z and a-z (arrays?)
+Can include A-Z and a-z
 Can include 0-9
 Can include special characters
 
