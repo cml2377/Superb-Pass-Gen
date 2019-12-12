@@ -5,6 +5,12 @@
     border-bottom: none;
 }
 
+.display-4 {
+    font-size: 40px;
+    font-size: 4.5vw;
+    font-weight: bolder;
+}
+
 h2 {
     margin-bottom: 20px;
 }
