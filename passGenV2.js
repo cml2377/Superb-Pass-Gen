@@ -65,7 +65,11 @@ else {
             charList = charList + "abcdefghijklmnopqrstuvwxyz";
         }
 
-        //if none are true, var charList stays blank.
+        //if none are true, var charList stays blank. WHEN YOU CLICK GENERATE, THIS ALERT WILL POP UP BECAUSE YOU DIDN'T CHOOSE ANY CRITERIA!!!!!
+        if (charList == "") {
+            alert("You didn't pick any criteria! This is not a fingerprint reader. Refresh to try again.");
+            return;
+        }
 
         // var pass is user password.
         var pass = "";
