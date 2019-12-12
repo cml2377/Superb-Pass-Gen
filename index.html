@@ -28,13 +28,34 @@
                 aria-label="Generated Password"></textarea>
             <hr>
             <button id="generate" onClick="generatePassword()">Generate Password</button>
-            <button id="copy" onClick="copyPassword()">
+            <button data-toggle="modal" data-target="#myModal" id="copy" onClick="copyPassword()">
                 Copy to Clipboard
             </button>
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="myModalLabel">Password Generated</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            Copied to Clipboard
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <script src="passGen.js"></script>
+    <!-- <script src="passGen.js"></script> -->
+    <script src="passGenV2.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
