@@ -2,8 +2,11 @@
 Random password generator created with JavaScript! 
 https://cml2377.github.io/Superb-Pass-Gen/
 
-![Screenshot1](images/First.png)
+On page load, the browser prompts the user for number of characters, and type of characters that they want to include (numbers, special characters, lower-case, upper-case, etc.)
+<img src="./images/First.png" width="50%" align="middle" style="margin:0">
 
-![Screenshot2](images/Second.png)
+When the user inputs their requirements, the page will provide 2 buttons. The first one will generate a random password based on the user's input.
+<img src="./images/Second.png" width="50%" align="middle" style="margin:0">
 
-![Screenshot3](images/Third.png)
+The second button will copy the password to the user's clipboard and display a modal that confirms the action.
+<img src="./images/Third.png" width="50%" align="middle" style="margin:0">
